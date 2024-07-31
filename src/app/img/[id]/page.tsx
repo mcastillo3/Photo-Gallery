@@ -8,5 +8,9 @@ export default function PhotoPage({
   const idasNumber = Number(photoId);
   if (Number.isNaN(idasNumber)) throw new Error("Invalid photo id");
 
-  return <FullPageImageView id={idasNumber} />;
+  return (
+    <div className="h-full">
+      <FullPageImageView id={idasNumber} />
+    </div>
+  );
 }
