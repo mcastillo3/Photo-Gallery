@@ -17,4 +17,11 @@
 - [x] Update upload button
 - [x] Analytics (posthog)
 - [x] Delete button (w/ Server actions)
-- [ ] Ratelimiting (upstash)
+- [x] Ratelimiting (upstash)
+
+## Future improvements
+
+- [ ] Fix the page layout for images of different resolutions
+- [ ] Selecting images on the gallery page (Zustan lib useState)
+- [ ] Infinite scroll
+- [ ] Folders/albums (update schema)
